@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Outfit:wght@400;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%);
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 990px;
+
+}
+
+
+.container_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+
+  padding: 30px;
+  margin-bottom: 20px;
+  border-bottom:2px solid #4F7EC1;
+  border-radius: 10px;
+
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  list-style: none;
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color:  #4F7EC1;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-left: 5px;
+
+  transition: all 0.2s;
+
+}
+
+nav li a:hover {
+ border-left: 2px solid #4F7EC1;
+ color: white;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.banner_desc {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 77px;
+ margin-bottom: 15px;
+
+}
+.product_title,
+.product_price,
+.product_links {
+  text-align: center; 
+
+}
+
+.product_title span {
+  font-size: 12px;
+  color: #4F7EC1;
+
+}
+
+.product_title p {
+  font-size: 25px;
+  margin-top: 2px;
+
+}
+
+.product_price h1 {
+  font-size: 45px;
+  color: #4F7EC1;
+ 
+}
+
+.product_price p {
+  font-family: 'Outfit', sans-serif;
+
+  font-size: 17px;
+  color: #4F7EC1;
+}
+
+.product_links {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product_button {
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%);
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  color: #B9CEDD;
+  text-decoration: none;
+  transform: all 0.4s;
+
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+.product_button:hover {
+  background-color: #B9CEDD;
+  color: #fff;
+
+}
+
+.product_button_info {
+  font-size: 20px;
+  text-decoration: none;
+  color: #4F7EC1;
+}
+
+.product_button_info:hover {
+  text-decoration: underline;
+  
+}
+
+.banner_image {
+  background-image: url(../images/hero_iphone_15.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  width: 100%;
+  height: 400px;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%); 
+}
+
+.main_title h1 {
+  font-family: 'Outfit', sans-serif;
+
+  color:#9FB4C8;
+  margin-bottom: 50px;
+}
+
+.card_iphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%); 
+
+  /*background: linear-gradient(90deg, rgba(124,144,157,1) 0%, rgba(213,231,243,1) 100%); */
+  border:2px solid #4F7EC1;
+  border-radius: 20px 40px;
+  padding: 20px;
+
+
+}
+
+
+
+.card_image img{
+  width: 180px;
+  height: 257px;
+}
+
+.card_colors {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  margin-top: 15px;
+
+}
+
+.colors_smarth_1 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #9FB4C8;
+  
+}
+.colors_smarth_2 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #E6DBEB;
+  
+}
+.colors_smarth_3 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #232931;
+  
+}
+.colors_smarth_4 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #FC0323;
+  
+}
+
+.card_title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.card_title p {
+  line-height: 1px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4F7EC1;
+
+}
+
+.card_title span {
+  color:#B9CEDD;
+
+}
+
+.card_price_desc {
+  font-size: 14px;
+  color: #B9CEDD;
+  
+}
+
+.card_price_button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  
+}
+
+.card_price_button .button_buy {
+
+  font-family: 'Outfit', sans-serif;
+
+  border-radius: 10px;
+  border: 1px solid #4F7EC1;
+  padding: 3px;
+  color:#4F7EC1;
+  text-decoration: none;
+
+  transition: all 0.4s;
+  cursor: pointer;
+
+  margin-bottom: 11px;
+
+}
+ 
+.card_price_button .button_buy:hover {
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%);  
+  color: white;
+
+}
+
+.card_price_button .button_desc {
+  text-decoration: none;
+  font-size: 14px;
+  color: #4F7EC1;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: white;
+
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%);  
+
+}
+
+.content_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+.contact_headline {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
+
+  
+}
+
+.contact_image {
+  font-family: 'Mate SC', serif;
+  font-size: 16px;
+  color: #4F7EC1;
+  padding: 10px;
+  border-radius: 10px;
+  background: radial-gradient(circle, rgba(37,74,125,1) 0%, rgba(38,61,98,1) 100%);  
+}
+
+.contact_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.contact_profile img {
+  width: 40px;
+  height: 40px;
+  border:4px solid #4F7EC1;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.contact_profile span {
+  margin-left: 10px;
+  padding-left: 15px;
+  border-left: 2px solid #9FB4C8;
+}
+
+.social_media {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.social_media span {
+  font-family: 'Mate SC', serif;
+  font-size: 20px;
+  color: #4F7EC1;
+
+
+}
+
+.medias_img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.medias_img a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.medias_img img {
+  width: 30px;
+  height: 30px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 5px;
+
+  transition: all 0.4s;
+
+}
+
+.medias_img img:hover {
+  background-color: #B9CEDD;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .container {
+    width: 750px;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+  .container_menu {
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .container {
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+
+  }
+
+  .contact_headline {
+    flex-direction: column;
+
+  }
+  
+  .contact_profile img {
+    width: 50px;
+    height: 40px;
+
+  }
+
+  .social_media span {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+}
+
+@media screen and (min-width: 319px) and (max-width: 420px){
+  .container_menu {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .container {
+    flex-direction: column;
+    width: 250px;
+    gap: 15px;
+
+  }
+
+  .main_title h1 {
+    font-size: 23px;
+
+  }
+
+  .contact_headline {
+    flex-direction: column;
+
+  }
+  
+  .contact_profile img {
+    width: 50px;
+    height: 40px;
+
+  }
+
+  .social_media span {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+}
